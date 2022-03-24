@@ -3,7 +3,7 @@
     <head>
         <title>The Generics | Store</title>
         <meta name="description" content="This is the description">
-        <link rel="stylesheet" href="/style-.css">
+        <link rel="stylesheet" href="style-.css">
     </head>
     <body>
         <header class="header">
@@ -14,8 +14,7 @@
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            
-            <h1 class="band-h1 band-h1-large">The Generics</h1>
+            <h1 class="Title Title-style">The Generics</h1>
         </header>
         <section class="container content-section">
                 <h2 class="section-header">MUSIC</h2>
@@ -56,66 +55,60 @@
         </section>
         <section class="container content-section">
             <h2 class="section-header">MERCH</h2>
-            <div class="album-header">
-                <div class="albums">
-                    <span class="album-title">T-Shirt</span>
-                    <img class="album-image" src="Images/Shirt.png">
-                    <div class="album-image-detail">
-                        <span class="album-price">$19.99</span>
-                        <button class="album-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="albums">
-                    <span class="album-title">Cofee Cup</span>
-                    <img class="album-image" src="Images/Cofee.png">
-                    <div class="album-image-detail">
-                        <span class="album-price">$6.99</span>
-                        <button class="album-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container content-section">
-                <h2 class="section-header">CART</h2>
-            <div class="cart-header">
-                <div class="cart-header-div">
-                    <span class="cart-header-item">ITEM</span>
-                
-                    <span class="cart-header-price">PRICE</span>
-                
-                    <span class="cart-header-quantity">QUANTITY</span>
-                </div>
-                <hr>
-                <div class="cart-header-div">
-                    <img class="cart-image" src="Images/Shirt.png" width="100" height="100">
-                    <span class="cart-image-name">T-Shirt</span>
-                    <span class="cart-price">$19.99</span>
-                    <input class="quantity-number" type="number" value="1">
-                    <button class="cart-button-remove" type="button">REMOVE</button>
-                </div>
-                <hr>
-                <div class="cart-header-div">
-                    <img class="cart-image" src="Images/Album 3.png" width="100" height="100">
-                    <span class="cart-image-name">Album 3</span>
-                  
-                    <span class="cart-price">$9.99</span>
-                  
-                    <input class="quantity-number" type="number" value="2">
-                    <button class="cart-button-remove" type="button">REMOVE</button>
-                </div>
-                <hr>
-                <div class="head-total">
-                    <span class="total">Total</span>
-                    <span>$39.97</span>
-                </div>
-                <div>
-                    <button class="purchase-button" type="button">PURCHASE</button>
-                </div>
-            </div>
-        </section>
+            <table>
+                <thead>
+                    <tr class="head1">
+                        <td class="row-item head-style item-style">ITEM</td>
+                        <td class="row-price head-style item-style">PRICE</td>
+                        <td class="row-quantity head-style item-style">QUANTITY</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row-item">
+                        <td class="item-style row item">
+                            <img class="image-image" src="/Images/Shirt.png" alt="shirt-img">
+                            <span class="image-title">T-shirt</span>
+                        </td>
+                        <td class="item-style">
+                            <span class="item-price">$19.99</span>
+                        </td>
+                        <td class="row-item item-style">
+                            <input class="quantity-number" type="number" value="1">
+                            <button class="button-remove">Remove</button>
+                        </td>
+                    </tr>
+                    <tr class="item-style">
+                        <td class="row-item">
+                            <img class="image-image" src="/Images/Album 3.png" alt="imge">
+                            <span class="image-title">album 3</span>
+                        </td>
+                        <td>
+                            <span class="item-price">$9.99</span>
+                        </td>
+                        <td class="row-quantity">
+                            <input class="quantity-number" type="number" value="1">
+                            <button class="button-remove">Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3" class="row-total">
+                            <span class="tatal-name">Total</span>
+                            <span class="item-price">$39.97</span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="3" clss="aria-button">
+                            <button class="button-purchase">PURCHASE</button>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+                  </section>
         <footer class="main-footer">
             <div container main-footer-container>
-              <h3 class="band-h1">The Generics</h3>
+              <h3 class="Title">The Generics</h3>
               <ul class="nav footer-nav">
                   <li>
                       <a href="https://www.youtube.com" target="_blank">
